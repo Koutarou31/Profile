@@ -1,0 +1,195 @@
+*{
+
+    border: 0;
+    box-shadow: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.Nav{
+
+    padding: 15%;
+    background-color: gray;
+    background-image: url(https://wallpaperaccess.com/full/5651990.jpg);
+    color: white;
+ 
+    
+}
+
+
+
+.Menu a{
+    color: white;
+    text-decoration: none;
+    margin: 4px;
+}
+
+
+.Menu a:hover{
+color: mistyrose;    
+border-top: solid white;
+transition: 0.3s;
+
+}
+
+
+
+.Menu a:focus{
+    color: mistyrose;
+    border-top: solid white;
+}
+
+
+.Button a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+ 
+}
+
+
+.Button a:hover{
+   transition: 0.3s;
+    color: white;
+    box-shadow: 0 1px 3px;
+}
+
+
+.Home{
+    display: flex;
+    padding: 60px;
+}
+
+
+.Image{
+    flex: 1 1 0;
+    animation: left 4s ease-in-out;
+}
+
+.Image img{
+    height: 80%;
+    width: 70% ;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px ;
+    
+}
+
+
+.Note{
+    flex: 1 1 1;
+    border: 1px solid gray;
+    padding: 1%;
+    border-radius: 5px;
+    height: 90%;
+    width:60% ;
+    font-size: 1.6vw;
+   
+   
+}
+
+
+.Note p{
+    color: black;
+   
+}
+
+
+.Skill{
+    display: flex;
+    padding: 5%;
+}
+
+.Skill .Set1{
+flex:  1 1 0;
+animation:  Skill 3s infinite;
+
+}
+
+.Skill .Set2{
+    flex:  1 1 0;
+    animation:  Skill 3s infinite;
+    }
+
+ .Tskill{
+    padding: 1%;
+ }   
+
+
+ .Pskill{
+
+    background-image: url(https://wallpaperaccess.com/full/5651986.jpg);
+    color: white;
+    font-size: 2.5vw;
+   
+ }
+
+
+.container-fluid{
+    padding: 2%;
+    
+}
+
+.Foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5%;
+}
+
+
+.Foot .Contact{
+    flex: 1 1 0;
+}
+
+.Subicon img{
+    margin: 2px;
+    height: 4.5vw;
+    width: 4vw;
+    border-radius: 40px;
+   
+
+}
+
+
+.Subicon img:hover{
+    box-shadow: 0 1px 30px ;
+    border-radius: 40px;
+    
+}
+.Subicon a{
+   text-decoration: none;
+   color: inherit;
+
+}
+
+
+@keyframes left {
+    0% {
+      transform: translateX(-50%) ;
+    }
+
+
+    50%{
+        transform: translateX(10%) ;
+    }
+}
+
+
+@keyframes Skill {
+    100% {
+      opacity: 100%;
+    }
+
+
+    50%{
+       opacity: 50%;
+    }
+
+    0%{
+        opacity: 0%;
+    }
+}
